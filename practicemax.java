@@ -23,9 +23,12 @@ public class practicemax {
     }
 
     public static void main(String[] args) {
-
-        int n = 6;
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
         int nums[] = { 1, 2, 6, 5, 7, 9, };
         System.out.println(min(nums));
+        System.out.println(n);
+        sc.close();
+
     }
 }

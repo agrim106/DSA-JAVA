@@ -57,5 +57,6 @@ public class Armstrongnumber {
         } else {
             System.out.print("False");
         }
+        sc.close();
     }
 }

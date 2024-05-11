@@ -23,5 +23,6 @@ public class Anagrams {
         } else {
             System.out.println("False it is not anagram: ");
         }
+        sc.close();
     }
 }

@@ -19,6 +19,6 @@ public class priimeornoot {
         } else {
             System.out.println("Not a prime : ");
         }
-
+        sc.close();
     }
 }

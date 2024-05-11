@@ -18,5 +18,6 @@ public class sumofarray {
             nums[i] = sc.nextInt();
         }
         System.out.print(suma(nums));
+        sc.close();
     }
 }
