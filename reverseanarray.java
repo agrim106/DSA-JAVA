@@ -1,4 +1,3 @@
-import java.util.*;
 
 public class reverseanarray {
     public static void reversearr(int[] arr) {
