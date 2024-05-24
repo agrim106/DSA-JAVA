@@ -1,21 +1,27 @@
 public class revarrayslrn {
-    public static void revarrs(int arr[]) {
-        int first = arr[0];
-        int last = arr.length - 1;
-        while (last > first) {
-            int temp = arr[last];
-            arr[first] = arr[last];
-            arr[first] = temp;
-            first++;
-            last--;
+    public static void revsarr(int agrimsarr[]) {
+        int st = 0;
+        int end = agrimsarr.length - 1;
+        while (st < end) {
+            int temp = agrimsarr[end];
+            // int swap = m[last];
+            // m[last] = m[first];
+            // m[first] = swap;
+            // first++;
+            // last--;
+            agrimsarr[end] = agrimsarr[st];
+            agrimsarr[st] = temp;
+            st++;
+            end--;
+
         }
     }
 
     public static void main(String[] args) {
-        int arr[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 0 };
-        revarrs(arr);
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + " ");
+        int agrimsarr[] = { 10, 23, 32, 43, 234, 4365, 65464, 2092, 23432, 2234324 };
+        revsarr(agrimsarr);
+        for (int i = 0; i < agrimsarr.length; i++) {
+            System.out.print(agrimsarr[i] + " ");
         }
         System.out.println();
 
