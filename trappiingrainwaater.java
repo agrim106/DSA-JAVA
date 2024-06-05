@@ -26,6 +26,7 @@ public class trappiingrainwaater {
         int trappedrainwater = 0;
 
         // Step 3: Calculate trapped water
+
         for (int i = 0; i < n; i++) {
             // Step 4: Water level
             int waterlevel = Math.min(leftmax[i], rightmax[i]);
