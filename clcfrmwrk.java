@@ -16,6 +16,30 @@ public class clcfrmwrk {
         studentname.add("akash");
         studentname.add("Prakrit");
         studentname.add("Pratyush");
+        studentname.add("Aarav");
+        studentname.add("Vivaan");
+        studentname.add("Aditya");
+        studentname.add("Vihaan");
+        studentname.add("Arjun");
+        studentname.add("Reyansh");
+        studentname.add("Mohammed");
+        studentname.add("Sai");
+        studentname.add("Arnav");
+        studentname.add("Ayaan");
+        studentname.add("Krishna");
+        studentname.add("Ishaan");
+        studentname.add("Shaurya");
+        studentname.add("Atharva");
+        studentname.add("Advait");
+        studentname.add("Pranav");
+        studentname.add("Advaith");
+        studentname.add("Bhavesh");
+        studentname.add("Kabir");
+        studentname.add("Rajesh");
+        studentname.add("Keshav");
+        studentname.add("Rahul");
+        studentname.add("Karan");
+        studentname.add("Yash");
         System.out.println(studentname);
         // A thing to note in this is that it uses import java util to execute, dont
         // forget to mention those when you write the code.
