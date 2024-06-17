@@ -1,9 +1,12 @@
+import java.util.*;
+
 public class cnverttoupprcs {
     public static String touppercs(String str) {
-        StringBuilder sb = new StringBuilder(" ");
-        Character ch = Character.toUpperCase(str.charAt(0));
-        sb.append(str);
-        for (int i = 1; i <= str.length() - 1; i++) {
+        StringBuilder sb = new StringBuilder();
+        if (str.length() > 0) {
+            sb.append(Character.toUpperCase(str.charAt(0)));
+        }
+        for (int i = 1; i < str.length(); i++) {
             if (str.charAt(i) == ' ' && i < str.length() - 1) {
                 sb.append(str.charAt(i));
                 i++;
