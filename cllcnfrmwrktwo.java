@@ -8,6 +8,7 @@ public class cllcnfrmwrktwo {
         numbers.add(2);
         numbers.add(3);
         numbers.add(4);
+        numbers.add(78);
         numbers.add(5);
         System.out.println(numbers);
 
@@ -27,5 +28,18 @@ public class cllcnfrmwrktwo {
         // Removing by value
         numbers.remove(Integer.valueOf(78));
         System.out.println(numbers);
+
+        // To check if an element is present in the list or not we use contains
+        // function.
+
+        System.out.println(numbers.contains(78));
+
+        for (int i = 0; i < numbers.size(); i++) {
+            if (i == 4) {
+                System.out.println("The value has been found.");
+            }
+
+        }
+
     }
 }
